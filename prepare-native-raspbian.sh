@@ -23,8 +23,7 @@ do
 done
 echo ""
 if [ ! -z "$MISSING_PKGS" ]; then
-	echo "You are missing required packages."
-	echo "Run sudo apt-get update && sudo apt-get install $MISSING_PKGS"
+	echo "You are missing required packages.  $MISSING_PKGS"
 	exit 1
 else
 	echo "All dependencies met"
