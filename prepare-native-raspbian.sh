@@ -21,7 +21,7 @@ for pkg in $REQUIRED_PKGS
 do
 	check_dpkg_installed $pkg
 done
-echo ""
+echo "NEW COMMIT IS HERE!!!"
 if [ ! -z "$MISSING_PKGS" ]; then
 	echo "You are missing required packages.  $MISSING_PKGS"
 	exit 1
